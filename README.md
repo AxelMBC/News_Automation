@@ -78,8 +78,6 @@ The script will output the titles and links of the first three news articles fro
   C:\path\to\your\scrape_yahoo_finance_bs4.py
   ```
 
-```
-
 5. **Finish the setup:**
- - Review your settings and click "Finish".
-```
+
+- Review your settings and click "Finish" .
