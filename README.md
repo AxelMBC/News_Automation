@@ -66,10 +66,10 @@ The script will output the titles and links of the first three news articles fro
 
 4. **Set the action:**
 
-- Select "Start a program" and browse to the Python executable in your virtual environment:
+- Select "Start a program" and browse to the Python executable in your file explorer:
 
 ```sh
-  C:\path\to\your\venv\Scripts\python.exe
+ "C:\path\to\your_script.py"
 ```
 
 - Add the script path in the "Add arguments" field:
