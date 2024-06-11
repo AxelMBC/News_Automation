@@ -19,6 +19,7 @@ The script performs the following tasks:
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Automation](#automation)
 
 ## Installation
 
@@ -37,5 +38,48 @@ The script performs the following tasks:
 ## Usage
 
 1. **Configure the script:**
+
    - Open the "scrape_yahoo_finance_bs4.py" script.
    - Set the "to_email", "from_email", and "app_password" variables with your email details and the app-specific password.
+
+2. **Run the script**
+   ```sh
+    python scrape_yahoo_finance_bs4.py
+   ```
+
+The script will output the titles and links of the first three news articles from each source and send an email with this information.
+
+## Automation
+
+1. **Open Task Scheduler**
+
+   - Press `Win + S`, type "Task Scheduler", and hit Enter.
+
+2. **Create a new task:**
+
+   - In the "Actions" pane, click "Create Basic Task...".
+   - Follow the wizard to name the task and give a description.
+
+3. **Set the trigger:**
+
+   - Choose "Daily" and set the time you want the script to run.
+
+4. **Set the action:**
+
+- Select "Start a program" and browse to the Python executable in your virtual environment:
+
+```sh
+  C:\path\to\your\venv\Scripts\python.exe
+```
+
+- Add the script path in the "Add arguments" field:
+
+  ```sh
+  C:\path\to\your\scrape_yahoo_finance_bs4.py
+  ```
+
+```
+
+5. **Finish the setup:**
+ - Review your settings and click "Finish".
+```
