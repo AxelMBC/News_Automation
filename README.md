@@ -18,11 +18,24 @@ The script performs the following tasks:
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
+  - [Usage](#usage)
 
 ## Installation
 
 1. **Clone the repository:**
+
    ```sh
    git clone https://github.com/yourusername/news-scraper-email-sender.git
    cd news-scraper-email-sender
    ```
+
+2. **Install the required packages:**
+   ```sh
+    pip install requests beautifulsoup4
+   ```
+
+## Usage
+
+1. **Configure the script:**
+   -Open the "scrape_yahoo_finance_bs4.py" script.
+   -Set the "to_email", "from_email", and "app_password" variables with your email details and the app-specific password.
