@@ -69,7 +69,7 @@ The script will output the titles and links of the first three news articles fro
 - Select "Start a program" and browse to the Python executable in your file explorer:
 
 ```sh
- "C:\path\to\your_script.py"
+ C:\path\to\your_script.py
 ```
 
 - Add the script path in the "Add arguments" field:
